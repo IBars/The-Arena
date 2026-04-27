@@ -206,7 +206,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 11.04, y: 5, z: 0.08}
+  m_LocalPosition: {x: 11.040004, y: 5, z: 0.07999992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -571,7 +571,7 @@ MonoBehaviour:
   deceleration: 40
   jumpForce: 15
   fallMultiplier: 5
-  visualRoot: {fileID: 1856977351}
+  visualRoot: {fileID: 1620708887}
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -625,6 +625,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!4 &1620708887 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3042152606516934990, guid: 3cea2669bc779f241917351acb11c350, type: 3}
+  m_PrefabInstance: {fileID: 1768479481}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1768479481
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -698,11 +703,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1261668200}
   m_SourcePrefab: {fileID: 100100000, guid: 3cea2669bc779f241917351acb11c350, type: 3}
---- !u!4 &1856977351 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9110557120595446512, guid: 3cea2669bc779f241917351acb11c350, type: 3}
-  m_PrefabInstance: {fileID: 1768479481}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

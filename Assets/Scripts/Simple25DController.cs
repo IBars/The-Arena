@@ -48,12 +48,12 @@ public class NaturePlayerController : MonoBehaviour
         if (inputX > 0) 
         {
             // Sağa bak (90 derece)
-            visualRoot.localRotation = Quaternion.Euler(0, 90, 0);
+            visualRoot.localRotation = Quaternion.Euler(0, 0, 0);
         }
         else if (inputX < 0) 
         {
             // Sola bak (-90 veya 270 derece)
-            visualRoot.localRotation = Quaternion.Euler(0, -90, 0);
+            visualRoot.localRotation = Quaternion.Euler(0, -180, 0);
         }
 
         // 5. Fonksiyonları Çağır
